@@ -1,0 +1,1 @@
+group1_ariac_msgs/ConveyorPartsPose[] conveyor_parts

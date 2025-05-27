@@ -1,0 +1,2 @@
+ariac_msgs/PartPose initial_detection
+ariac_msgs/PartPose[] predictions

@@ -1,0 +1,57 @@
+# copied from ARIAC tutorials page
+
+robot_cameras:
+  floor_robot_camera:
+    active: false
+    type: rgb
+
+  ceiling_robot_camera:
+    active: false
+    type: rgbd
+
+# from last assignment (might want to change):
+# static_sensors:
+#   conveyor_breakbeam:
+#     type: break_beam
+#     visualize_fov: true
+#     pose:
+#       xyz: [-0.36, 3.5, 0.88]
+#       rpy: [0, 0, pi]
+
+#   rgbd_camera_left_tray:
+#     type: rgbd_camera
+#     visualize_fov: true
+#     pose:
+#       xyz: [-1.27, -5.67, 1.8]
+#       rpy: [pi, pi/2, 0]
+
+#   rgbd_camera_right_tray:
+#     type: rgbd_camera
+#     visualize_fov: true
+#     pose:
+#       xyz: [-1.247, 5.81, 1.8]
+#       rpy: [pi, pi/2, 0]
+
+#     # Right Bins (1-4)
+#   right_bins_RGB_camera:
+#     type: rgb_camera
+#     visualize_fov: true
+#     pose:
+#       xyz: [-2.275, 3, 1.8]
+#       rpy: [pi, pi/2, 0]
+
+#   # Left Bins (5-8)
+#   left_bins_RGB_camera:
+#     type: rgb_camera
+#     visualize_fov: true
+#     pose:
+#       xyz: [-2.275, -3, 1.8]
+#       rpy: [pi, pi/2, 0]
+
+#   ## Sensor for: conveyor ##
+#   conveyor_RGB_camera:
+#     type: rgb_camera
+#     visualize_fov: true
+#     pose:
+#       xyz: [-0.681511, 3.893961, 1.918427]
+#       rpy: [pi, pi/2, 0]

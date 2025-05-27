@@ -1,0 +1,68 @@
+# This file should be in <your_ARIAC_workspace>/src/ARIAC/ariac_gazebo/config/
+# you will need to colcon build ARIAC each time you change this file
+
+# based off the example file in the ARIAC documentation
+
+robot_cameras:
+
+  floor_robot_camera: 
+    active: false
+    type: rgb
+  
+  ceiling_robot_camera: 
+    active: false
+    type: rgbd
+
+static_sensors:  
+
+  #conveyor_breakbeam:
+  #  type: break_beam
+  #  pose:
+  #    xyz: [-0.352, 3.91, 0.88]
+  #    rpy: [0, 0, pi]
+  
+  basic_logical_camera_0:
+    visualize_fov: false
+    type: basic_logical_camera
+    pose:
+      xyz: [-0.623927, 4.039975, 1.114600]
+      rpy: [pi, pi/2, 0]
+  
+  rgbd_camera_left_tray:
+    type: rgbd_camera
+    visualize_fov: true
+    pose:
+      xyz: [-1.27, -5.67, 1.8]
+      rpy: [pi, pi/2, 0]
+
+  rgbd_camera_right_tray:
+    type: rgbd_camera
+    visualize_fov: true
+    pose:
+      xyz: [-1.247, 5.81, 1.8]
+      rpy: [pi, pi/2, 0]
+      
+  # Right Bins (1-4)
+  right_bins_RGB_camera:
+    type: rgb_camera
+    visualize_fov: true
+    pose:
+      xyz: [-2.275, 3, 1.8]
+      rpy: [pi, pi/2, 0]
+
+  # Left Bins (5-8)
+  left_bins_RGB_camera:
+    type: rgb_camera
+    visualize_fov: true
+    pose:
+      xyz: [-2.275, -3, 1.8]
+      rpy: [pi, pi/2, 0]
+      
+   ## Sensor for: conveyor ##
+  conveyor_RGB_camera:
+    type: rgb_camera
+    visualize_fov: true
+    pose:
+      xyz: [-0.623927, 4.039975, 1.112205]
+      rpy: [pi, pi/2, 0]
+
