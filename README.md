@@ -22,6 +22,7 @@ The specific objectives of the final project were to perform a kitting task usin
 
 
 ## Run Final Project Package
+Place 'ariac_final' in your '/src' folder in the ARIAC workspace
 
 Dependencies:
 - Install the following dependencies before running the executables
@@ -44,6 +45,10 @@ To Build:
 - build competitor package using 
   ```bash
   colcon build --packages-select group1_ariac
+  ```
+- Source current workspace
+  ```bash
+  source install/setup.bash
   ```
   
 To Launch: 
