@@ -84,6 +84,6 @@ To Start:
 
 ## Links
 
-- ARIAC Documentation — ARIAC Docs 2024.5.0 documentation. (2024). Nist.gov; NIST. https://pages.nist.gov/ARIAC_docs/en/latest/index.html
-- Video Demonstration — https://drive.google.com/file/d/1UXFhWlqYLbP_E1LbREEFsl9bCKwYDgrV/view?usp=drive_link
+- ARIAC Documentation — [ARIAC Docs 2024.5.0 documentation. (2024). Nist.gov; NIST.](https://pages.nist.gov/ARIAC_docs/en/latest/index.html)
+- Video Demonstration — [YouTube](https://youtu.be/nRMoOkfuviY)
 
